@@ -49,7 +49,7 @@ const userRoutes = (app, fs) => {
             data[newUserId.toString()] = req.body;
 
             writeFile(JSON.stringify(data, null, 2), () => {
-                res.status(200).send('new user added');
+                res.status(200).send('Agregado nuevo usuario');
             });
         },
             true);
@@ -66,7 +66,7 @@ const userRoutes = (app, fs) => {
             data[userId] = req.body;
 
             writeFile(JSON.stringify(data, null, 2), () => {
-                res.status(200).send(`users id:${userId} updated`);
+                res.status(200).send(`usuario id:${userId} actualizado`);
             });
         },
             true);
@@ -83,7 +83,7 @@ const userRoutes = (app, fs) => {
             delete data[userId];
 
             writeFile(JSON.stringify(data, null, 2), () => {
-                res.status(200).send(`users id:${userId} removed`);
+                res.status(200).send(`usuario id:${userId} eliminado`);
             });
         },
             true);

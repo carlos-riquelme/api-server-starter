@@ -1,20 +1,26 @@
 {
   "1": {
-    "name": "king arthur",
-    "password": "password1",
-    "profession": "king",
+    "name": "Eric R",
+    "password": "devops",
+    "profession": "devops1",
     "id": 1
   },
   "2": {
-    "name": "rob kendal",
-    "password": "password3",
-    "profession": "code fiddler",
+    "name": "Christian C",
+    "password": "devops",
+    "profession": "devops2",
     "id": 2
   },
   "3": {
-    "name": "teresa may",
-    "password": "parliament",
-    "profession": "brexit killer",
+    "name": "Ellery F",
+    "password": "devops",
+    "profession": "devops3",
     "id": 3
+  },
+  "4": {
+    "name": "Camilo E",
+    "password": "devops",
+    "profession": "devops4",
+    "id": 4
   }
 }

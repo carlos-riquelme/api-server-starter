@@ -5,7 +5,7 @@ const appRouter = (app, fs) => {
 
     // default route
     app.get('/', (req, res) => {
-        res.send('welcome to the development api-server');
+        res.send('Módulo 2 Ejercicio 2');
     });
 
     // // other routes
